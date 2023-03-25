@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cooper';
+    font-size: 12px;
+}
+@font-face {
+    font-family: 'Cooper';
+    src: url(fonts/CooperHewitt-Medium.otf);
+}
+@font-face {
+    font-family: 'Cooper Light';
+    src: url(fonts/CooperHewitt-Light.otf);
+}
+@font-face {
+    font-family:'Oswald';
+    src: url(fonts/Oswald-Heavy.ttf);
+}
+
+video{
+    right:0;
+    bottom: 0;
+    z-index: -1;
+    position:fixed;
+    opacity: 1.2;
+}
+@media (min-aspect-ratio:16/9){
+    video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio:16/9){
+    video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+form {
+    padding: 40px 90px;
+    margin: 100px 400px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    background-image: rgba(0,0,0,0.5);
+    background-color: white;
+    text-align: left;
+    text-decoration: none;
+}
+h1 {
+    font-family: 'Oswald';
+    font-size: 35px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+}
+label{
+    padding-top: 15px;
+    font-family: 'Cooper';
+    font-size: 16px;
+    color: black;
+}
+.input {
+    margin: 5px 0px;
+    padding: 10px 105px;
+}
+.input2 {
+    margin: 5px 0px;
+    padding: 10px 75px;
+    display: inline-block;
+}
+#confirm{
+    padding: 10px;
+    margin-right: 10px;
+}
+h5 {
+    font-size: 20px;
+    padding: 10px 100px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    text-decoration: none;
+    list-style: none;
+}
+.terms {
+    text-decoration: none;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    color:darkslategrey;
+    font-size: 12px;
+}
+p{
+    display: inline-block;
+    font-size: 12px;
+}
+.verify {
+    padding: 10px 9.5px;
+    display: inline-block;
+    color: white;
+}
+button {
+    background-color: black;
+    text-decoration: none;
+    border: 2px solid black;
+}
+.return {
+    font-size: 18px;
+    padding-top: 15px;
+    padding-left: 110px;
+    display: inline-block;
+}
+.arrow {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: sub;
+}
